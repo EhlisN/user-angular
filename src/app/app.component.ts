@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IPost } from './shared/model/post.model';
 import { IUser } from './shared/model/user.model';
 import { UserService } from './shared/service/user.service';
 
@@ -9,7 +10,7 @@ import { UserService } from './shared/service/user.service';
 })
 export class AppComponent implements OnInit {
   users: IUser[] = [];
-  selectedUser!: IUser;
+  selectedUser!: IUser | null;
 
   constructor(private userService: UserService) {}
 
@@ -25,6 +26,7 @@ export class AppComponent implements OnInit {
   }
 
   public getUserById(id: number) {
+    this.selectedUser = null;
     this.userService.getUserById(id).subscribe((user) => {
       this.selectedUser = user;
     });

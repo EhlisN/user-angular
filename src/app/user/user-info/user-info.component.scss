@@ -1,22 +1,35 @@
 .info-container {
   padding: 20px;
   .info-card {
-    box-shadow: 0 0 10px 5px blueviolet;
+    max-width: 600px;
+    box-shadow: 0 0 10px 5px rgb(201, 158, 242);
     background-color: rgb(254, 239, 254);
     padding: 20px;
-    width: 500px;
     margin: 20px auto;
+    h3 {
+      color: blueviolet;
+      font-weight: 700;
+    }
     p {
       margin: 10px 0;
     }
   }
-  button {
-    padding: 10px 20px;
-    box-shadow: 0 0 5px 2px blueviolet;
-    font-weight: 700;
-    margin: 10px auto;
-    &:hover {
-      box-shadow: 0 0 5px 2px rgb(201, 158, 242);
+  .button-container {
+    width: 100%;
+    button {
+      width: 25%;
+      background-color: rgb(242, 158, 218);
+      border-radius: 5px;
+      padding: 10px 20px;
+      box-shadow: 0 5px 5px 0 rgb(201, 158, 242);
+      border: none;
+      color: #fff;
+      font-weight: 700;
+      margin: 2%;
+      &:hover {
+        box-shadow: 0 5px 5px 0 rgb(226, 204, 247);
+        color: blueviolet;
+      }
     }
   }
 }
