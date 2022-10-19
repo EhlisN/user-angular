@@ -10,9 +10,9 @@ This is a sample angular project for the display of Users & their Posts list, co
 
 ![](/src/assets/img/1.png)
 
-![](/src/assets/img/1.png)
+![](/src/assets/img/2.png)
 
-![](/src/assets/img/1.png)
+![](/src/assets/img/3.png)
 
 # UsersAngular
 
