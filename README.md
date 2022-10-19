@@ -1,3 +1,19 @@
+# Users
+
+Sample SPA application written in Angular which communicates with [{JSON}Placeholder](https://jsonplaceholder.typicode.com/).
+
+## Overview
+
+This is a sample angular project for the display of Users & their Posts list, comments, todo-list and albums. Data is retrieved from read-only JSONPlaceholder fake online REST Api.
+
+## Review on the web app
+
+![](/src/assets/img/1.png)
+
+![](/src/assets/img/1.png)
+
+![](/src/assets/img/1.png)
+
 # UsersAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
